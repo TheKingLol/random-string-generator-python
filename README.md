@@ -1,11 +1,11 @@
 # random-string-generator-python
 A basic script which you can configure to print a random line of text
 
-## installation
+## Installation
 ```bash
 git clone https://github.com/TheKingLol/random-string-generator-python.git
 ```
-## options
+## Options
 1. random ascii uppercase
 2. random ascii lowercase
 3. random digits
@@ -14,7 +14,7 @@ git clone https://github.com/TheKingLol/random-string-generator-python.git
 6. random hexdigits
 7. random printable
 
-## sample code
+## Sample code
 ``` python
 import random, string
 size = 8
@@ -33,7 +33,7 @@ print(c)
 c = allowed = string.printable
 print(c)
 ```
-## sample outputs
+## Sample outputs
 ```bash
 rjzlzfmr
 IEJFVYBC
@@ -45,3 +45,5 @@ IEJFVYBC
 
 
 ```
+## Future releases
+* A functional GUI
